@@ -12,10 +12,10 @@ public class StonesOnTheTable {
         String stones = sc.nextLine();
 
         int count = 0;
-        for (int i = 0; i < stones.length()-1; i++) {
+        for (int i = 0; i < stones.length()-1; i++)
             if (stones.charAt(i) == stones.charAt(i+1))
                 count++;
-        }
+
 
         System.out.println(count);
     }
